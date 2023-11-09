@@ -1,0 +1,19 @@
+body {
+    background-color: darkolivegreen;
+/*     background-image: url(/img/piraat-bg.webp); */
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color:rgba(177, 222, 135, 0.1);
+}
+
+.navbar__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* .main  {
+} */
