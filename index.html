@@ -7,6 +7,7 @@
     <title>Welcome aboard</title>
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
     <script defer src="script/script.js"></script>
 </head>
 
@@ -14,11 +15,12 @@
     <header class="header">
         <nav class="navbar">
             <ul class="navbar__list">
-                <li class="navbar__list_item"><a href="#">1</a></li>
-                <li class="navbar__list_item"><a href="#">2</a></li>
-                <li class="navbar__list_item"><a href="#">3</a></li>
-                <li class="navbar__list_item"><a href="#">4</a></li>
-                <li class="navbar__list_item"><a href="#">5</a></li>
+                <li class="navbar__list_item"><a href="#main__descr">Добро пожаловать </a></li>
+                <li class="navbar__list_item"><a href="#about">О нас</a></li>
+                <li class="navbar__list_item"><a href="#">Галерея</a></li>
+                <li class="navbar__list_item"><a href="#form">Анкета</a></li>
+                <li class="navbar__list_item"><a href="#feedback">Отзывы наших сотрудников</a></li>
+                <li class="navbar__list_item"><a href="#footer">Контактная информация</a></li>
             </ul>
         </nav>
     </header>
@@ -26,14 +28,23 @@
         <h1 class="maintext">
             Welcome aboard!
         </h1>
-        <p class="main__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptas at provident,
+        <p id="main__descr" class="main__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptas at
+            provident,
             sapiente nemo ullam tempora cum, dicta recusandae fugiat vero iste, unde adipisci illum doloribus. Fugiat
             commodi deserunt, tenetur ipsam earum tempore et illum quod ratione, cum, blanditiis harum. Vitae, harum
-            fugit nobis dolor porro nemo et explicabo culpa!</p>
+            fugit nobis dolor porro nemo et explicabo culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Amet non ipsum rerum saepe, aliquam quisquam consequatur earum quidem exercitationem perspiciatis temporibus
+            nulla optio dicta consectetur maiores, facere sequi, molestias ex! Ad reiciendis iure eveniet, aspernatur
+            odio dolor obcaecati quae dolorum? Laboriosam nihil at ut labore distinctio vitae dolorum minima incidunt,
+            itaque asperiores obcaecati facere ad, accusamus suscipit eligendi officia ex culpa omnis illum repudiandae
+            magni fugit! A id quos quibusdam nulla inventore porro labore dolore veritatis soluta ullam voluptatem
+            officiis dignissimos fuga explicabo aperiam minus, adipisci obcaecati voluptate, odio, atque maiores saepe
+            delectus error hic. Corrupti dignissimos inventore aspernatur sapiente?</p>
 
 
 
-        <section class="about">О нас
+        <section id="about" class="about">
+            <h2>О нас</h2>
 
 
             <ul class="about__list">
@@ -44,13 +55,23 @@
             </ul>
 
         </section>
+        <section class="galery">
+            <h2>Галерея</h2>
+        </section>
+        <section class="form">
+            <h2>Анкета</h2>
+        </section>
 
-
-        <section class="feedback">Отзывы наших сотрудников</section>
+        <section id="feedback" class="feedback">
+            <h2>Отзывы наших сотрудников</h2>
+        </section>
     </main>
 
 
-<footer class="footer">Here is the footer</footer>
+    <footer id="footer" class="footer">
+        <h2>Here is the footer</h2>
+    </footer>
+
 
 
 </body>
