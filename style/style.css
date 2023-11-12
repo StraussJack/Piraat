@@ -1,4 +1,6 @@
 body {
+    height: 100px;
+    width: 100%;
     background-color: darkolivegreen;
         background-image: url(/img/piraat-bg.webp);
     background-size: cover;
@@ -12,11 +14,23 @@ body {
     height: 20px;
 }
 
+.heading {
+    text-align: center;
+}
+
 .navbar__list {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    ;
+}
+
+.navbar__list_item {
+list-style-type: none;
 }
 
 /* .main  {
+} */
+/* 
+.maintext {
 } */
