@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome aboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="icon" href="img/favicon.png" type="image/png">
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script defer src="script/script.js"></script>
 </head>
 
@@ -28,9 +31,6 @@
                     </li>
                     <li class="header__list_item">
                         <a href="#feedback" class="header__link">Контактная информация</a>
-                    </li>
-                    <li class="header__list_item">
-                        <a href="#footer" class="header__link">Анкета</a>
                     </li>
 
                 </ul>
@@ -165,10 +165,6 @@
             </div>
         </section>
 
-        <section class="galery">
-            <h2 class="heading">Галерея</h2>
-            <h3>Swiper-js-library</h3>
-        </section>
 
 
         <section id="clients" class="clients section-offseet">
@@ -228,20 +224,96 @@
         </section>
 
 
+        <section class="join-us section-offset" id="join">
+            <div class="container">
+                <h2 class="section__title join-us__title">Join us</h2>
+                <p class="section-descr join-us__descr">Коль ты душой не слаб и не труслив, как краб, тогда добро
+                    пожаловать на борт!</p>
 
-        <section class="form">
-            <h2 class="heading">Анкета</h2>
+                <form action="#" method="post" class="form">
+
+                    <div class="form__top">
+                        <div class="form__left">
+                            <input type="text" class="form__input" name="name" placeholder="name" required />
+
+                            <input class="form__input" type="email" name="email" placeholder="email" required />
+
+                            <input type="tel" class="form__input" name="phone" placeholder="phone" required />
+
+                            <select class="form__select" name="country">
+                                <option value="country" disabled selected>Country</option>
+                                <option value="united kingdom">united kingdom</option>
+                                <option value="united kingdom">united kingdom</option>
+                                <option value="united kingdom">united kingdom</option>
+                            </select>
+                        </div>
+
+                        <div class="form__right">
+                            <textarea class="form__textarea" name="comment" placeholder="comment"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form__bottom">
+                        <div class="form__wrapper">
+                            <button class="btn btn-reset form-btn">На борт!</button>
+                            <label class="form__check">
+                                <input type="checkbox" required />
+                                Готов вступить на борт!
+                            </label>
+                        </div>
+                    </div>
+
+
+                </form>
+
+
+            </div>
         </section>
 
     </main>
 
 
     <footer id="footer" class="footer">
-        <h2 class="heading">Here is the footer</h2>
+        <div class="container flex footer__container">
+            <div class="footer__left flex">
+                <a href="#" class="footer__logo">
+                    <img src="img/logo.svg" alt="Pirat logo">
+                </a>
+                <small class="footer__copy">
+                    Находится под защитой пиратского братства.
+                </small>
+            </div>
+            <div class="footer__right flex">
+                <nav class="footer__nav">
+                    <ul class="footer__list list-reset flex">
+                        <li class="footer__item">
+                            <a href="#" target="_blank" class="footer__link">About us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" target="_blank" class="footer__link">Contact us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" target="_blank" class="footer__link">Private policy</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" target="_blank" class="footer__link">Terms condition</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="social list-reset flex">
+                    <li class="social-item">
+                        <a href="#" class="social-link social-link-tw"></a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link social-link-linkedin"></a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link social-link-mail"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </footer>
-
-
-
 </body>
 
 </html>
