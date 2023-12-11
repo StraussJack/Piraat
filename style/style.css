@@ -167,6 +167,7 @@ body {
 
 .blog-preview-image {
     object-fit: cover;
+    width: 150px;
 }
 
 .blog-preview-text {
